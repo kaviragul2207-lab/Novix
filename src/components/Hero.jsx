@@ -91,7 +91,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section ref={component} id="home" className="h-screen flex flex-col justify-center px-6 text-left relative z-10 overflow-hidden">
+        <section ref={component} id="home" className="h-screen    flex flex-col justify-center px-6 text-left relative z-10 overflow-hidden">
             {/* Background Elements */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-800/20 via-black to-black -z-10"></div>
 
